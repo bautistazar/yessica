@@ -1,0 +1,129 @@
+/* estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #ff5722;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: #ff5722;
+    border-radius: 5px;
+}
+
+/* ----- */
+body {
+    padding-top: 60px;
+}
+
+/* estilos de las secciones */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h1, section h2 {
+    text-align: center;
+    color: #ff5722;
+}
+
+section p {
+    text-align: justify;
+}
+
+/* seccion precios */
+#Precios ul {
+    list-style: none;
+    padding: 0;
+}
+
+#Precios ul li {
+    background: #ffe0b2;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* seccion productos */
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.imagenes img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagenes h3 {
+    margin-top: 10px;
+    text-align: center;
+    color: #ff5722;
+}
+
+.imagenes p {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ff5722;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
